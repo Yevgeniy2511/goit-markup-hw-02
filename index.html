@@ -4,32 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <!--Body-->
   <body>
     <!--Header-->
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li>
-            <a href="">Studio</a>
+    <header class="page-header">
+      <nav class="page-header-nav">
+        <a class="logo" href="./index.html">WebStudio</a>
+        <ul class="menu">
+          <li class="menu-item">
+            <a class="menu-link-studio" href="">Studio</a>
           </li>
-          <li>
-            <a href="">Portfolio</a>
+          <li class="menu-item">
+            <a class="menu-link" href="">Portfolio</a>
           </li>
-          <li>
-            <a href="">Contacts</a>
+          <li class="menu-item">
+            <a class="menu-link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <address class="address-header">
+        <ul class="address-list">
+          <li class="address-list-item">
+            <a class="address-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <li class="address-list-item">
+            <a class="address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
@@ -37,38 +51,38 @@
     <!--Main-->
     <main>
       <!--Order section-->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="sect-one-solutions">
+        <h1 class="sect-one-head">Effective Solutions for Your Business</h1>
+        <button class="sect-one-button" type="button">Order Service</button>
       </section>
       <!--Benefits section-->
-      <section>
-        <h2>Our benefits</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+      <section class="sect-two-benef">
+        <h2 class="sect-two-benef-head">Our benefits</h2>
+        <ul class="benef-list">
+          <li class="benef-list-item">
+            <h3 class="benef-item-head">Strategy</h3>
+            <p class="benef-item-paragraf">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="benef-list-item">
+            <h3 class="benef-item-head">Punctuality</h3>
+            <p class="benef-item-paragraf">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="benef-list-item">
+            <h3 class="benef-item-head">Diligence</h3>
+            <p class="benef-item-paragraf">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="benef-list-item">
+            <h3 class="benef-item-head">Technologies</h3>
+            <p class="benef-item-paragraf">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -76,28 +90,28 @@
         </ul>
       </section>
       <!--Team section-->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+      <section class="sect-three-team">
+        <h2 class="sect-three-team-head">Our Team</h2>
+        <ul class="team-list">
+          <li class="team-list-item">
             <img
               src="./images/team/mark_photo.jpg"
               alt="mark guerrero photo"
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="team-member-name">Mark Guerrero</h3>
+            <p class="team-member-prof">Product Designer</p>
           </li>
-          <li>
+          <li class="team-list-item">
             <img
               src="./images/team/tom_photo.jpg"
               alt="tom ford photo"
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-member-name">Tom Ford</h3>
+            <p class="team-member-prof">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -106,8 +120,8 @@
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="team-member-name">Camila Garcia</h3>
+            <p class="team-member-prof">Marketing</p>
           </li>
           <li>
             <img
@@ -116,16 +130,82 @@
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="team-member-name">Daniel Wilson</h3>
+            <p class="team-member-prof">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <!--Portfolio-->
+      <section class="sect-four-portf">
+        <h2 class="sect-four-portf-head">Our Portfolio</h2>
+        <ul class="portf-list">
+          <li class="portf-list-item">
+            <img
+              src="./images/portfolio/banking_app.jpg"
+              alt="banking app page"
+              width="360"
+              height="300"
+            />
+            <h3 class="portf-description">Banking App</h3>
+            <p class="portf-direction">App</p>
+          </li>
+          <li class="portf-list-item">
+            <img
+              src="./images/portfolio/cashless_payment.jpg"
+              alt="smartphone and pay terminal"
+              width="360"
+              height="300"
+            />
+            <h3 class="portf-description">Cashless Payment</h3>
+            <p class="portf-direction">Marketing</p>
+          </li>
+          <li class="portf-list-item">
+            <img
+              src="./images/portfolio/maditation_app.jpg"
+              alt="laptop and smartphone"
+              width="360"
+              height="300"
+            />
+            <h3 class="portf-description">Maditation App</h3>
+            <p class="portf-direction">App</p>
+          </li>
+          <li class="portf-list-item">
+            <img
+              src="./images/portfolio/taxi_service.jpg"
+              alt="dashboard view thru the car window"
+              width="360"
+              height="300"
+            />
+            <h3 class="portf-description">Taxi Service</h3>
+            <p class="portf-direction">Marketing</p>
+          </li>
+          <li class="portf-list-item">
+            <img
+              src="./images/portfolio/screen_illustrations.jpg"
+              alt="smartphone and screen wallpapers"
+              width="360"
+              height="300"
+            />
+            <h3 class="portf-description">Screen Illustrations</h3>
+            <p class="portf-direction">Design</p>
+          </li>
+          <li class="portf-list-item">
+            <img
+              src="./images/portfolio/online_courses.jpg"
+              alt="girl in glasses is talking on the smartphone"
+              width="360"
+              height="300"
+            />
+            <h3 class="portf-description">Online Courses</h3>
+            <p class="portf-direction">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
     <!--Footer-->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="page-footer">
+      <a class="logo-footer" href="./index.html">WebStudio</a>
+      <p class="footer-slogan">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>

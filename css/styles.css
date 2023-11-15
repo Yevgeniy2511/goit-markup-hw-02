@@ -5,17 +5,12 @@ ul, ol {
 a {
     text-decoration: none;
 }
-button {
-    cursor: pointer;
-    color: #FFFFFF;
-    background-color: #4D5AE5;
-}
+
 body {
 font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
-
 
 /* Header */
 .logo {
@@ -90,6 +85,14 @@ color: #404BBF ;
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
+button {
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
 .sect-one-button:hover,
 .sect-one-button:focus {
 color: FFFFFF;
@@ -126,7 +129,7 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.team-list {
+.team-list-item {
 background-color: #FFFFFF;
 }
 .team-member-name {
@@ -134,7 +137,8 @@ background-color: #FFFFFF;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-}
+    color: #2E2F42;
+ } 
 .team-member-prof {
         font-size: 16px;
         line-height: 1.5;

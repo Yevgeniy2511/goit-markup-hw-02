@@ -120,7 +120,7 @@ color:  #2E2F42;
 
 /* Team Section Three */
 .sect-three-team {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 .sect-three-team-head{
 color: #2E2F42;
@@ -131,9 +131,9 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-/* .team-list-item {
+.team-list {
 background-color: #FFFFFF;
-} */
+}
 .team-member-name {
     font-size: 20px;
     font-weight: 500;

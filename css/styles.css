@@ -88,10 +88,12 @@ color: #404BBF ;
 button {
     cursor: pointer;
     color: #FFFFFF;
-    background-color: #4D5AE5;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
+    background-color: #4D5AE5;  
+}
+.sect-one-button {
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
 .sect-one-button:hover,
 .sect-one-button:focus {
@@ -118,7 +120,7 @@ color:  #2E2F42;
 
 /* Team Section Three */
 .sect-three-team {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 .sect-three-team-head{
 color: #2E2F42;
@@ -129,9 +131,9 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.team-list-item {
+/* .team-list-item {
 background-color: #FFFFFF;
-}
+} */
 .team-member-name {
     font-size: 20px;
     font-weight: 500;
